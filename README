@@ -1,0 +1,4 @@
+
+# put a list of URL in the urls.txt file and run:
+awk -F'/' '{n=split($3, a, "."); print a[n-1]"."a[n] }' urls.txt | sort | uniq | sort > domini.txt
+

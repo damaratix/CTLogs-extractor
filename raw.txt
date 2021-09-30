@@ -1,0 +1,2 @@
+https://example.com/test/aaa
+https://example1.com/assets/bbbb
